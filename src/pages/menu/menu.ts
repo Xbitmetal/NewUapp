@@ -23,10 +23,9 @@ export class MenuPage {
   pages: PageInterface[] = [
     {title: 'Home', pageName: 'HomePage', tabComponent: 'HomePage', index: 0, icon: 'home'},
     {title: 'About', pageName: 'HomePage', tabComponent: 'AboutPage', index: 1,  icon: 'logo-steam'},
-    {title: 'Activities', pageName: 'HomePage', tabComponent: 'ActivitiesPage', index: 2,  icon: 'logo-steam'},
-    {title: 'Contact-information', pageName: 'HomePage', tabComponent: 'ContactInformationPage', index: 3,  icon: 'logo-steam'},
-    {title: 'Extra-curriculum', pageName: 'HomePage', tabComponent: 'ExtraCurriculumPage', index: 4,  icon: 'logo-steam'},
-    {title: 'Targeted-CV', pageName: 'HomePage', tabComponent: 'TargetedCvPage', index: 5,  icon: 'logo-steam'},
+    {title: 'Benchpress', pageName: 'HomePage', tabComponent: 'ActivitiesPage', index: 2,  icon: 'logo-steam'},
+    {title: 'Squat', pageName: 'HomePage', tabComponent: 'ContactInformationPage', index: 3,  icon: 'logo-steam'},
+    {title: 'Deadlift', pageName: 'HomePage', tabComponent: 'ExtraCurriculumPage', index: 4,  icon: 'logo-steam'},
   ]
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

@@ -17,7 +17,6 @@ export class TabsPage {
   tab3Root='ActivitiesPage';
   tab4Root='ContactInformationPage';
   tab5Root='ExtraCurriculumPage';
-  tab6Root='TargetedCvPage';
   myIndex: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
